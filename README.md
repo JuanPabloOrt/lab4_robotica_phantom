@@ -1,6 +1,6 @@
 # lab4_robotica_phantom
 
-En el laboratorio de hoy se trabaja el robot pahnto xa, para lograr trabajar con este es necesario contar con lo siguientes recursos de Software.
+En el laboratorio de hoy se trabaja el robot pahntom x 'Pincher', para lograr trabajar con este es necesario contar con lo siguientes recursos de Software.
 
 1. Ubuntu 20.4
 2. ROS
@@ -13,4 +13,9 @@ Con estos recursos es posible llevar acabo este laboratorio.
 
 ## Conexión del robot 
 
+El robot se energiza, y pormedio del controlador se conexta via USB al ordenador con el cual será programado.
+Luego de esto con Dynamixel se corrobora el funcionamiento correcto de cada servomotor, todo esto con el fin de caracterizr los movimientos maximos y minimos del robot, e cada grado de libertad, y tner la capacidad de ubicar el cero de este, ademas de ver velocidades macimas, y torques maximos.
+
+## Programación de movimientos del robot
+ Inicialmente se establece la longitud de cada eslabón del robot, todo esto para realizar la tabla DH y el tipo de movimiento de cada eslabon y asi poder creal el modelo simulado del robot
 
