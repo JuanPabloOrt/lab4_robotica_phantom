@@ -27,6 +27,10 @@ ESTE Permite realizar movimientos en el entorno virtual de como se comportaria e
 
 Esta es la matriz DH del robot
 
+Se plotea esta posicion del robot desde Matlab
+
+![ROBOT_SImulado](htt![ps1_matlab](https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/101f5dcd-011a-447d-828d-fe907e1cd02e)
+ps://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/ac61994b-f7f1-43fa-a8ce-c88b92db890b)
 
 Ahora se empieza con el entorno DYNAMIXEL para corroborar  los punto cero de cada articulación en cada motor de cada eslabon y observar los valores maximos de torque.
 
