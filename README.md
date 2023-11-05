@@ -24,7 +24,8 @@ Este robot cuenta con 4 atriculaciones rotativas y ninguna de tipo longitudinal,
 ESTE Permite realizar movimientos en el entorno virtual de como se comportaria el robot, y obsrvar la posicion en que quedaría ubicado segun la rotación dada al robot.
 
 ![DH](https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/07d9b675-9a88-4055-94bf-4df021bbdffe)
-Esta 
+
+Esta es la matriz DH del robot
 
 
 Ahora se empieza con el entorno DYNAMIXEL para corroborar  los punto cero de cada articulación en cada motor de cada eslabon y observar los valores maximos de torque.
