@@ -39,4 +39,13 @@ Ahora se empieza con el entorno DYNAMIXEL para corroborar  los punto cero de cad
 INSERTAR IMAGENES DYMAMIXEL Y QUE SE HIZO
 
 
-Luego de esto e procede a crear el codigo PYTHON/MATLAB con el cual se realiza la programacion de movimientos del robot y la creacion de este en el entorno ROS, luego se realizan los pasos de codigo en la consola de linux con el software ROS para crear el pquete de robot segun el github  https://github.com/felipeg17/px_robot. COn este se crea el entorno del robot, y luego se procede a 
+Luego de esto e procede a crear el codigo PYTHON/MATLAB con el cual se realiza la programacion de movimientos del robot y la creacion de este en el entorno ROS, luego se realizan los pasos de codigo en la consola de linux con el software ROS para crear el pquete de robot segun el github  https://github.com/felipeg17/px_robot. COn este se crea el entorno del robot, y luego se procede a dar un movimiento a partir de un codigo Python, luego se ejecuta creando el entorno catwin_ws en ROS dando asi lugar al siguiente movimiento
+
+
+
+
+https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/1ef7a2ec-f235-41c1-bd25-2331b9a46013
+
+
+
+
