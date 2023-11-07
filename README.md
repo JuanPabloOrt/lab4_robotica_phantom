@@ -11,7 +11,7 @@ En el laboratorio de hoy se trabaja el robot pahntom x 'Pincher', para lograr tr
 
 Con estos recursos es posible llevar acabo este laboratorio.
 
-## Conexión del robot 
+## Conexión y programación del robot 
 
 El robot se energiza, y pormedio del controlador se conexta via USB al ordenador con el cual será programado.
 Luego de esto con Dynamixel se corrobora el funcionamiento correcto de cada servomotor, todo esto con el fin de caracterizr los movimientos maximos y minimos del robot, e cada grado de libertad, y tner la capacidad de ubicar el cero de este, ademas de ver velocidades macimas, y torques maximos.
@@ -36,7 +36,7 @@ Se plotea esta posicion del robot desde Matlab, dando
 Ahora se empieza con el entorno DYNAMIXEL para corroborar  los punto cero de cada articulación en cada motor de cada eslabon y observar los valores maximos de torque.
 
 
-INSERTAR IMAGENES DYMAMIXEL Y QUE SE HIZO
+
 
 
 Luego de esto e procede a crear el codigo PYTHON/MATLAB con el cual se realiza la programacion de movimientos del robot y la creacion de este en el entorno ROS, luego se realizan los pasos de codigo en la consola de linux con el software ROS para crear el pquete de robot segun el github  https://github.com/felipeg17/px_robot. COn este se crea el entorno del robot, y luego se procede a dar un movimiento a partir de un codigo Python, luego se ejecuta creando el entorno catwin_ws en ROS dando asi lugar al siguiente movimiento
@@ -47,5 +47,10 @@ Luego de esto e procede a crear el codigo PYTHON/MATLAB con el cual se realiza l
 https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/1ef7a2ec-f235-41c1-bd25-2331b9a46013
 
 
+Este movimiento nos demuestra que el software ROS pemite programar rutinas para robots, ya que se le podria la orden de bucle para este movimiento, observamos el movimiento en todos los eslabones, ademas de que es un software libre, por lo cual permite realizar desarrollos academicos e industriales de bajo coste.
 
+
+##  Conclusiones
+
+ROS es una herramienta computacional muy util par ahacer desarrollos en el area de robotica, por lo que nos da la posibilidad de interactuar en tiempo real con robots, por otra parte Linux siempre presenta pequeños bus al momento de empezar a utilizar un nuevo software, lo cual dificultó el acople de ROS con Python y el robot Phantom. Esta parte siempre es la mas demandante de trabajr en este enetorno. El robot Pahntom se deja mover en los 5 grados de libertad que tiene a una velocidad baja, estos servomotores manejan un elevado torque por lo cual es imperativo dar un aterrizaje al robot correctamente para lograr hacer movimientos a una mayor velocidad.
 
