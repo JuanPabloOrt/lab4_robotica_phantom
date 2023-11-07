@@ -1,4 +1,6 @@
 # lab4_robotica_phantom
+Theylor Amaya-Juan Pablo Ortiz
+
 
 En el laboratorio de hoy se trabaja el robot pahntom x 'Pincher', para lograr trabajar con este es necesario contar con lo siguientes recursos de Software.
 
