@@ -27,6 +27,24 @@ ESTE Permite realizar movimientos en el entorno virtual de como se comportaria e
 
 Esta es la matriz DH del robot
 
+### Parámetros Denavit-Hartenberg (DH) 
+<div align="center">
+
+| $\mathbf{i}$ | $\mathbf{\theta_i}$ | $\mathbf{d_i}$ | $\mathbf{a_i}$ | $\mathbf{\alpha_i}$ |$\mathbf{offset_i}$ |
+|:------------:|:-------------------:|:--------------:|:--------------:|:-------------------:|:-------------------:|
+|      $1$     |         $q_1$       |      $L_1$     |       $0$      |   $-\frac{\pi}{2}$  |         $0$         |
+|      $2$     |         $q_2$       |       $0$      |      $L_2$     |         $0$         |   $-\frac{\pi}{2}$  |
+|      $3$     |         $q_3$       |       $0$      |      $L_3$     |         $0$         |         $0$         |
+|      $4$     |         $q_4$       |       $0$      |      $L_4$     |         $0$         |         $0$         |
+
+</div>
+
+* L_1 = 42 mm
+* L_2 = 104 mm
+* L_3 = 104 mm
+* L_4 = 90 mm
+
+
 ![ps1_matlab](https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/137fdb85-a347-4321-9b49-fa5a96db3841)
 Se plotea esta posicion del robot desde Matlab, dando
 
