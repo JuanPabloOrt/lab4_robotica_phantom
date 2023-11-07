@@ -70,6 +70,14 @@ Este movimiento nos demuestra que el software ROS pemite programar rutinas para 
 Ahora se procede implementando las 5 posiciones del robot deseadas, esto con el fin de demostrar que se podría implementar una rutina en bucle para realizar tareas desde ROS implementado y Python. Dando asi el siguiente video
 
 
+https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/54760814-bd0c-4230-9519-f60899b3cd00
+
+
+Todo esto se logor a partir del siguiente codigo de Python
+[Uploading CP_Lab4.py…]()
+
+
+
 
 ##  Conclusiones
 
