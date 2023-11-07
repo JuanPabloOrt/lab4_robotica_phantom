@@ -74,7 +74,48 @@ https://github.com/JuanPabloOrt/lab4_robotica_phantom/assets/144562439/54760814-
 
 
 Todo esto se logor a partir del siguiente codigo de Python
-[Uploading CP_Lab4.py…]()
+
+
+```python
+import subprocess
+
+def move_robot(position):
+    # Define las posiciones de articulación para cada posición
+    poses = {
+        1: [0, 0, 0, 0, 0],
+        2: [25, 25, 20, -20, 0],
+        3: [-35, 35, -30, 30, 0],
+        4: [85, -20, 55, 25, 0],
+        5: [80, -35, 55, -45, 0],
+    }
+    
+    # Obtiene la pose deseada basada en la entrada del usuario
+    desired_pose = poses[position]
+
+    # Valor de conversión, por ejemplo, si la entrada está en grados y necesitas convertir a unidades de motor
+    conversion_factor = 3.4  # Actualizar con el factor de conversión apropiado si es necesario
+
+    # Mueve cada motor a la posición deseada
+    for motor_id, angle in enumerate(desired_pose, start=1):
+        # Convierte el ángulo a la unidad que el motor necesita
+        motor_value = int(angle * conversion_factor + 614)
+        # Crea el comando como un bloque de texto multilínea para mantener el formato YAML correcto
+        command = f"""
+        rosservice call /dynamixel_workbench/dynamixel_command "{{
+            'command': '', 
+            'id': {motor_id}, 
+            'addr_name': 'Goal_Position', 
+            'value': {motor_value}
+        }}"
+        """
+        # Ejecuta el comando
+        subprocess.run(command, shell=True)
+
+# Pregunta al usuario por la posición deseada
+position = int(input("Ingrese el número de la posición deseada (1-5): "))
+move_robot(position)
+4.py…]()
+```
 
 
 
